@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  .title {
+    font-size: clamp(15px, 1.5vw, 40px);
+    padding-bottom: 30px;
+  }
+  a {
+    font-size: clamp(38px, 9vw, 50px);
+    font-family: cursive;
+    .img {
+      vertical-align: middle;
+      padding-left: 30px;
+      height: auto;
+    }
+  }
+}
