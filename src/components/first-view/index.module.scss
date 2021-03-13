@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+}
+.img {
+  opacity: 0.3;
+}
+
+.text {
+  width: 100vw;
+  display: block;
+  color: rgb(28, 81, 255);
+  font-weight: 600px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: clamp(30px, 9vw, 90px);
+  position: absolute;
+  bottom: 10vw;
+  text-shadow: 3px 3px 3px #000000;
+}

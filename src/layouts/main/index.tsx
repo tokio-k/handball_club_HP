@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import { Children } from 'react'
 import { Footer } from 'src/components/footer'
 import { Header } from 'src/components/header'
-export function MainLayout(): JSX.Element {
+export function MainLayout({children}): JSX.Element {
     return (
         <>
             <Head>
@@ -9,54 +10,7 @@ export function MainLayout(): JSX.Element {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header />
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-            <h1>a<br/>a</h1><br/>
-
+            <main>{children}</main>
             <Footer />
         </>
     )

@@ -1,16 +1,16 @@
 import cc from "classcat"
-import Image from "next/image";
 import styles from "src/components/header/index.module.scss";
 import Link from "next/link";
 import { useState } from "react";
 
 export function Header(): JSX.Element {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState<boolean>(false);
         const openMenu = () => {
             setIsOpen(!isOpen);
             console.log(isOpen);
         }
     return (
+        <>
         <header className={styles.container}>
             <div>
                 <Link href="/">
@@ -48,13 +48,6 @@ export function Header(): JSX.Element {
                 <ul>
                     <li>
                         <Link href="/">
-                            メンバー紹介
-                        </Link>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <Link href="/">
                             練習紹介
                         </Link>
                     </li>
@@ -69,11 +62,20 @@ export function Header(): JSX.Element {
                 <ul>
                     <li>
                         <Link href="/">
+                            よくある質問
+                        </Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <Link href="/">
                             お問い合わせ
                         </Link>
                     </li>
                 </ul>
             </nav>
         </header>
+        <div className={styles.blank}></div>
+        </>
     )
 }

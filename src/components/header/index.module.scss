@@ -1,5 +1,4 @@
 .container {
-  background-color: rgb(30, 30, 30);
   display: flex;
   padding: unquote("min(3vw, 28px)") unquote("min(3vw, 32px)") 0;
   align-items: center;
@@ -15,8 +14,6 @@
     a {
       display: contents;
       font-size: clamp(11px, 3vw, 1.1rem);
-      color: #ffffff;
-      text-shadow: 1px 1px 1px #000000;
       text-decoration: none;
     }
   }
@@ -32,8 +29,6 @@
       display: contents;
       a {
         font-size: 1rem;
-        color: #ffffff;
-        text-shadow: 1px 1px 1px #000000;
         text-decoration: none;
         @media (max-width: 767px) {
         }
@@ -41,10 +36,9 @@
     }
   }
   @media (max-width: 767px) {
-    color: #000000;
     grid-template-columns: auto;
     position: absolute;
-    top: -100vw;
+    top: -150vw;
   }
 }
 
@@ -104,4 +98,8 @@
       top: 50%;
     }
   }
+}
+
+.blank {
+  padding-top: 0px;
 }
