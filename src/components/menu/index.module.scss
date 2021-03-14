@@ -1,2 +1,26 @@
 .container {
+  padding: 30px;
+  .menu {
+    display: grid;
+    grid-template:
+      " img img img"
+      " ... ... ..." 20px
+      " title ... link"
+      " ... ... ..." 20px
+      " intro intro intro"
+      / auto auto auto;
+    .img {
+      grid-area: img;
+    }
+    .title {
+      font-size: 20px;
+      grid-area: title;
+    }
+    .link {
+      grid-area: link;
+    }
+    .description {
+      grid-area: intro;
+    }
+  }
 }

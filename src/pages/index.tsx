@@ -47,7 +47,7 @@ export default function Home() : JSX.Element {
       <Menu
         img="/img/S__107642883.jpg"
         title="お問い合わせ"
-        description="聞きたいことがあれば、ぜひご連絡ください。練習試合申し込みも待ってます。"
+        description="聞きたいことがあれば、ぜひご連絡ください。練習試合申し込みもお待ちしております。"
         link= ""
       />
       <Instagram />

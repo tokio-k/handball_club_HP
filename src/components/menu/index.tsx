@@ -13,7 +13,7 @@ export function Menu({ img, title, description, link}: Props): JSX.Element {
     return (
         <section className={styles.container} >
             <div className={styles.menu}>
-            <div className={styles.container}>
+            <div className={styles.img}>
                 <Image src={img}
                 alt={"handball-img"}
                 width={720}
@@ -22,12 +22,12 @@ export function Menu({ img, title, description, link}: Props): JSX.Element {
                 />
             </div>
             <div className={styles.title}>{title}</div>
-            <div className={styles.description}>{description}</div>
             <div className={styles.link}>
                 <Link href={link}>
                     <a>詳細へ</a>
                 </Link>
             </div>
+            <div className={styles.description}>{description}</div>
             </div>
 
         </section>
