@@ -1,4 +1,3 @@
-import { Header } from "src/components/header";
 import { MainLayout } from "src/layouts/main";
 
 export default function Contact() :JSX.Element {
