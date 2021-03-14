@@ -1,18 +1,26 @@
 import Image from "next/image";
 import styles from "src/components/menu/index.module.scss";
 import Link from "next/link";
+import cc from "classcat"
 
 type Props = {
     img: string;
     title: string;
     description: string;
     link: string;
+    position: "right" | "left";
 }
 
-export function Menu({ img, title, description, link}: Props): JSX.Element {
+export function Menu({ img, title, description, link, position}: Props): JSX.Element {
     return (
         <section className={styles.container} >
-            <div className={styles.menu}>
+            <div className={ cc([
+                styles.menu,
+                {
+                    [styles.right]: position == "right",
+                    [styles.left]: position == "left",
+                }
+            ])}>
             <div className={styles.img}>
                 <Image src={img}
                 alt={"handball-img"}

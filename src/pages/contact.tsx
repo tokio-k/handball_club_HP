@@ -1,14 +1,15 @@
 import { Header } from "src/components/header";
+import { MainLayout } from "src/layouts/main";
 
 export default function Contact() :JSX.Element {
     return (
-        <>
-        <Header />
+        <MainLayout>
         <br/>
         <br/>
         <br/>
         お問い合わせページです。
         現在作成中です。
-        </>
+        </MainLayout>
+
     )
 }

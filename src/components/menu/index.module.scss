@@ -17,6 +17,7 @@
       grid-area: title;
     }
     .link {
+      text-align: center;
       padding: 8px;
       font-size: 15px;
       border-radius: 15px;
@@ -25,6 +26,40 @@
     }
     .description {
       grid-area: intro;
+      font-size: clamp(13px, 2vw, 50px);
+    }
+    @media (min-width: 480px) {
+      .title {
+        font-size: clamp(15px, 3vw, 50px);
+      }
+    }
+    @media (min-width: 768px) {
+      .title {
+        font-size: clamp(25px, 3vw, 50px);
+      }
+      .link {
+        font-size: clamp(20px, 2vw, 30px);
+      }
+    }
+  }
+  @media (min-width: 480px) {
+    .left {
+      grid-template:
+        " img ... ..... .... .... ..." 2.5vw
+        " img ... title .... link ..."
+        " img ... ..... .... .... ..." 2vw
+        " img ... intro intro intro ."
+        " img ... ..... ..... ..... ."
+        / 40% 2vw auto auto 14% 5vw;
+    }
+    .right {
+      grid-template:
+        " ... ..... .... .... ... img" 2.5vw
+        " ... title .... link ... img"
+        " ... ..... .... .... ... img" 2vw
+        " ... intro intro intro . img"
+        " ... ..... ..... ..... . img"
+        / 5vw auto auto 14% 2vw 40%;
     }
   }
 }
