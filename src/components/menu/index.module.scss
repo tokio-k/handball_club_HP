@@ -1,5 +1,5 @@
 .container {
-  padding: 30px;
+  padding: 40px 18px;
   .menu {
     display: grid;
     grid-template:
@@ -13,10 +13,14 @@
       grid-area: img;
     }
     .title {
-      font-size: 20px;
+      font-size: 25px;
       grid-area: title;
     }
     .link {
+      padding: 8px;
+      font-size: 15px;
+      border-radius: 15px;
+      background-color: rgb(1, 42, 177);
       grid-area: link;
     }
     .description {

@@ -27,7 +27,7 @@ export default function Home() : JSX.Element {
         link= ""
       />
       <Menu
-        img="/img/S__107642883.jpg"
+        img="/img/S__107642885.jpg"
         title="練習紹介"
         description="練習について紹介します。練習の雰囲気や練習メニューについて知りたい方はこちら"
         link= ""
@@ -39,7 +39,7 @@ export default function Home() : JSX.Element {
         link= ""
       />
       <Menu
-        img="/img/S__107642883.jpg"
+        img="/img/S__107642885.jpg"
         title="よくある質問"
         description="未経験はいますか？大学生活との両立は？厳しい？などなどの質問にお答えしています。"
         link= ""
