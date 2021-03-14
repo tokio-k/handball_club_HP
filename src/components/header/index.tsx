@@ -40,35 +40,35 @@ export function Header(): JSX.Element {
             ])}>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/team">
                             チーム紹介
                         </Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/practice">
                             練習紹介
                         </Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/move">
                             動画
                         </Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/faq">
                             よくある質問
                         </Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/contact">
                             お問い合わせ
                         </Link>
                     </li>
