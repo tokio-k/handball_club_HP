@@ -1,16 +1,14 @@
 import { FirstView } from 'src/components/first-view'
 import { Instagram } from 'src/components/instagram'
 import { Menu } from 'src/components/menu'
+import { Message } from 'src/components/message'
 import { MainLayout } from '../layouts/main'
 
 export default function Home() : JSX.Element {
   return (
     <MainLayout>
       <FirstView />
-      <div>
-        メッセージ文 現在作成中
-        メッセージ文
-      </div>
+      <Message />
       <Menu
         img="/img/S__107642883.jpg"
         title="チーム紹介"

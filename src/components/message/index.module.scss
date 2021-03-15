@@ -1,0 +1,11 @@
+.container {
+    padding:8vw 0px ;
+    text-align: center;
+    font-size: clamp(0.9rem, 2vw, 2.1rem);
+}
+
+@media (min-width: 480px) {
+    .br {
+        display: none;
+    }
+}
