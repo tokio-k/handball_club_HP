@@ -10,14 +10,14 @@ export default function Home() : JSX.Element {
       <FirstView />
       <Message />
       <Menu
-        img="/img/S__107642883.jpg"
+        img="/img/S__107782152.jpg"
         title="チーム紹介"
         description="チームについて紹介します。練習日数や練習場所、部員等について知りたい方はこちら"
         link= "/team"
         position ="left"
       />
       <Menu
-        img="/img/S__107642885.jpg"
+        img="/img/S__107782153.jpg"
         title="練習紹介"
         description="練習について紹介します。練習の雰囲気や練習メニュー等について知りたい方はこちら"
         link= "/practice"
@@ -38,7 +38,7 @@ export default function Home() : JSX.Element {
         position ="right"
       />
       <Menu
-        img="/img/S__107642883.jpg"
+        img="/img/S__107782150.jpg"
         title="お問い合わせ"
         description="聞きたいことがあれば、是非お気軽にご連絡ください。練習試合申し込み、愛知大学生の部活の参加もお待ちしております。"
         link= "/contact"
