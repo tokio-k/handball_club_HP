@@ -4,7 +4,7 @@ import { MainLayout } from "src/layouts/main";
 export default function Practice() :JSX.Element {
     return (
         <MainLayout>
-        <Headline title={"練習紹介ページ"}/>
+        <Headline title={"練習紹介"}/>
         現在作成中です。
         </MainLayout>
     )
