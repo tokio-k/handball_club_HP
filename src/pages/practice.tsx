@@ -1,5 +1,3 @@
-
-import { Header } from "src/components/header";
 import { Headline } from "src/components/headline";
 import { MainLayout } from "src/layouts/main";
 
