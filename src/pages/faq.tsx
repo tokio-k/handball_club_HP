@@ -1,12 +1,15 @@
-import { Blank } from "src/components/blank";
+
+import { Faq } from "src/components/faq";
+import { Headline } from "src/components/headline";
 import { MainLayout } from "src/layouts/main";
 
-export default function Faq() :JSX.Element {
+
+
+export default function FaqPages() :JSX.Element {
     return (
         <MainLayout>
-        <Blank />
-        よくある質問ページです。
-        現在作成中です。
+        <Headline title={"よくある質問"}/>
+            <Faq />
         </MainLayout>
     )
 }

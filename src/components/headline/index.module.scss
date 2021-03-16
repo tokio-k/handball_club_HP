@@ -1,0 +1,10 @@
+.container {
+    padding-top:clamp(4rem, 12vw, 6rem);
+    text-align: center;
+    .title {
+        font-size: clamp(1.3rem, 5vw, 1.7rem);
+        line-height: clamp(3rem, 12vw, 5rem);
+        height: clamp(3rem, 12vw, 5rem);
+        background-color:rgb(1, 42, 177);
+    }
+}
