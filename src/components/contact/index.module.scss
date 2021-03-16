@@ -1,0 +1,13 @@
+.container  {
+    padding:5vw;
+    font-size: clamp(16px, 3vw, 1.5rem);
+    .link {
+        margin:auto;
+        text-align: center;
+        line-height:clamp(50px, 5vw, 70px);
+        height: clamp(50px, 5vw, 70px);
+        width:clamp(250px, 35vw, 400px);
+        border-radius: 20px;
+        background-color:rgb(1, 42, 177);
+    }
+}
