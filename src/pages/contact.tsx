@@ -1,11 +1,10 @@
-import { Blank } from "src/components/blank";
+import { Headline } from "src/components/headline";
 import { MainLayout } from "src/layouts/main";
 
 export default function Contact() :JSX.Element {
     return (
         <MainLayout>
-        <Blank />
-        お問い合わせページです。
+        <Headline title={"お問い合わせページ"}/>
         現在作成中です。
         </MainLayout>
 

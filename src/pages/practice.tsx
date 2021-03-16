@@ -1,12 +1,12 @@
-import { Blank } from "src/components/blank";
+
 import { Header } from "src/components/header";
+import { Headline } from "src/components/headline";
 import { MainLayout } from "src/layouts/main";
 
 export default function Practice() :JSX.Element {
     return (
         <MainLayout>
-        <Blank />
-        練習紹介ページです。
+        <Headline title={"練習紹介ページ"}/>
         現在作成中です。
         </MainLayout>
     )

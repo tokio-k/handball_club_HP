@@ -1,0 +1,10 @@
+.faqs {
+    padding:25px;
+    align-items: center;
+    li {
+        padding-bottom:clamp(0.4rem, 3vw, 1.4rem);
+        p {
+            font-size: clamp(0.9rem, 3vw, 1.3rem);
+        }
+    }
+}
