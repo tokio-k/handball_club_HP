@@ -7,9 +7,9 @@ type Props = {
 
 export function Move({title, src}: Props):JSX.Element {
     return (
-        <div>
+        <div className={styles.container}>
             <h1>{title}</h1>
-            <video controls width="300px">
+            <video controls>
             <source src={src} type="video/mp4"/>
             </video>
         </div>
