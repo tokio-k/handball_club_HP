@@ -1,0 +1,15 @@
+.container {
+    padding:25px;
+    .content {
+        text-align: center;
+        table {
+            border-spacing: clamp(1.5rem, 5vw, 4.0rem);
+            padding-right:13%;
+            margin:auto;
+            font-size: clamp(1.3rem, 3vw, 2.0rem);
+        }
+    }
+    .supplement {
+        padding-top:40px;
+    }
+}
