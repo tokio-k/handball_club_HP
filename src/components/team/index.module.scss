@@ -1,0 +1,22 @@
+.container {
+    width:clamp(310px, 60vw, 800px);
+    margin: auto;
+    .section{
+        padding-bottom:30px;
+        h2 {
+            border-bottom: 1px solid #fff;
+        }
+        table {
+            text-align: center;
+            width:100%;
+            tbody {
+                font-size:clamp(0.9rem, 2.8vw, 1.5rem);
+                    td:nth-child(1) {
+                        width:clamp(5rem, 13vw, 8rem);
+                      }
+            }
+        }
+    }
+
+
+}
