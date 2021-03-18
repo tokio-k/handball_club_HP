@@ -1,5 +1,15 @@
 import styles from "src/components/table/index.module.scss";
-export function Tables({tables}): JSX.Element {
+type Props = {
+    tables:{
+        label:string;
+        items: {
+            title: string;
+            content: string;
+        }[];
+}[];
+}
+
+export function Tables({tables}:Props): JSX.Element {
     return (
         <div className={styles.container}>
             {tables.map(( {label, items }) => (

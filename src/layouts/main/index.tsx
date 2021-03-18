@@ -6,7 +6,8 @@ export function MainLayout({children}): JSX.Element {
         <>
             <Head>
                 <title>愛知大学男子ハンドボール</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/handball_icon_136530.ico" />
+                <meta name="description" content="愛知大学 男子ハンドボール部のHPです。ハンドボール部に興味のある方是非" />
             </Head>
             <Header />
             <main>{children}</main>
