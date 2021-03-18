@@ -1,4 +1,4 @@
-import styles from "src/components/team/index.module.scss";
+import styles from "src/components/table/index.module.scss";
 export function Tables({tables}): JSX.Element {
     return (
         <div className={styles.container}>
