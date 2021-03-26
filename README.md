@@ -1,3 +1,5 @@
-Next.js学習用
+Next.js 学習用
 静的サイト作成
-部活のHP作成
+部活の HP 作成
+
+https://aichi-univ-handball-club.vercel.app/
