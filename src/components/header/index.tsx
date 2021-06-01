@@ -55,7 +55,7 @@ export function Header(): JSX.Element {
                 <ul>
                     <li>
                         <Link href="/move">
-                            動画
+                            動画紹介
                         </Link>
                     </li>
                 </ul>
